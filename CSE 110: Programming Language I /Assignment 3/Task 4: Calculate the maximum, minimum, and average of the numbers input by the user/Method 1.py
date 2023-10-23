@@ -10,6 +10,8 @@ Lastly, apologies in advance in case of any error in the code or if the code is 
 
 
 '''
+Home Task - 4:
+
 Problem in brief:
 
 Write a Python program that asks the user for a quantity, then takes that many numbers as input and prints the maximum, minimum and average of those numbers.
