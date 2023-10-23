@@ -8,6 +8,7 @@ Lastly, apologies in advance in case of any error in the code or if the code is 
 
 
 
+
 '''
 Problem in brief:
 
@@ -19,13 +20,14 @@ From 1 to N (inclusive), display the summation of all numbers that are multiples
 
 
 
-N = int(input())
+
+N = int (input())
 sum = 0
-for i in range(1, N + 1, 1):
-    if i % 7 == 0 or i % 9 == 0:
-        if i % 7 == 0 and i % 9 == 0:
-            continue
-        else:
-            sum += i
-            print(i)
+for i in range (1, N + 1, 1):
+  if i % 7 == 0 or i % 9 == 0:
+    if i % 7 == 0 and i % 9 == 0:
+      continue
+    else:
+      sum += i
 print(sum)
+
