@@ -29,6 +29,7 @@ is_binary = True
 for i in x:
     if i != "0" and i != "1":
         is_binary = False
+        break
 
 if is_binary:
     print("Binary Number")
