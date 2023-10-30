@@ -24,7 +24,7 @@ Note: Vowels and Consonants count has to be greater than 0 for the treasure to o
 
 
 
-S = input()
+s = input()
 vowelsList = "AEIOUaeiou"
     # can also be written as a list like this:
     # list_of_vowels = ['A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u']
@@ -32,7 +32,7 @@ vowelsList = "AEIOUaeiou"
 vowel_count = 0
 consonant_count = 0
 
-for i in S:
+for i in s:
     if (65 <= ord(i) <= 90) or (97 <= ord(i) <= 122):
         if i in vowelsList:
             vowel_count += 1
