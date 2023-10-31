@@ -26,11 +26,11 @@ Hint: Flags/counters can be used to manage uppercase-lowercase
 
 
 given_string = input()
+new_string = ""
 
-new_string = given_string[0].upper()
-is_capital = True
+is_capital = False
 
-for i in range(1, len(given_string)):
+for i in range(len(given_string)):
     if (65 <= ord(given_string[i]) <= 90) or (97 <= ord(given_string[i]) <= 122):
         if is_capital:
             new_string += given_string[i].lower()
