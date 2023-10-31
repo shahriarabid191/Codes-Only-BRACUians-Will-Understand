@@ -1,4 +1,4 @@
-# CSE 110 Assignment 04 - Evaluation Tasks 1-2 and Home Tasks 1-4(Comming soon)
+# CSE 110 Assignment 04 - Evaluation Tasks 1-2 and Home Tasks 1-4
 
 ## Course Information
 - Course: CSE 110: Programming Language I
@@ -6,4 +6,4 @@
 
 ## Assignment Details
 - Assignment Number: 04
-- Included Problems: Evaluation Tasks 1-2 and Home Tasks 1-4(Coming soon)
+- Included Problems: Evaluation Tasks 1-2 and Home Tasks 1-4
