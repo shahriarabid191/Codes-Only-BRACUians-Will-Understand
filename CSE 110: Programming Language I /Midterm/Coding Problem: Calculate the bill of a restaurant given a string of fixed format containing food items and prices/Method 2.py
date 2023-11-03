@@ -25,19 +25,18 @@ Sample input: Food item 1: 12.99$, Food item 2: 10.99$, Food item 3: 14.11$
 
 
 
-# Please note that the following code does not resemble what I wrote in my exam. This is a modified version keeping the concept same.
-
-
 food_items = input()
+
 total = 0.0
 
 for i in range(len(food_items)):
-  if food_items[i] == ":":
-    price = ""
-    i += 2
-    while food_items[i] != "$":
-      price += food_items[i]
-      i += 1
-    total += float(price) 
+    if food_items[i] == ":":
+        colon_index = i
+    if food_items[i] == "$":
+        price = food_items[colon_index + 2:i]
+        total += float(price)
 
 print("The bill is: " + str(total) + "$")
+
+
+#Credit: Showalihin Islam Fahim
