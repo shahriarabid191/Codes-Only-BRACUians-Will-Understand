@@ -26,9 +26,9 @@ Write a Python program that takes a number from the user and prints its digits f
 
 # Same as method 1. Only the process of counting the number of digits in the given number is different.
 
-number = input()
+number = int(input())
 
-y = 10 ** (len(number) - 1)
+y = 10 ** (len(str(number)) - 1)
 
 number = int(number)
 while number != 0:
