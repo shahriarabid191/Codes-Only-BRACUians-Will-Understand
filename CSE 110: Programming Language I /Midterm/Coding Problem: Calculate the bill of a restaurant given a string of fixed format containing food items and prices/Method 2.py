@@ -18,7 +18,7 @@ Given a string of fixed format containing food items and prices, create a progra
 
 Note: You are not allowed to use any built-in string manipulation functions except for len, chr, and ord. Also, there are no numerical characters present in the string except for the prices and they are represented as floating-point numbers.
 
-Sample input: Food item 1: 12.99$, Food item 2: 10.99$, Food item 3: 14.11$
+Sample input: First item: 12.99$, Second item: 10.99$, Third item: 14.11$
 '''
 
 
