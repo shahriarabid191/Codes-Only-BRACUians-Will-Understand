@@ -33,14 +33,13 @@ total = 0.0
 price = ""
 
 for i in food_items:
-    if ord("0") <= ord(i) <= ord("9") or i == "." or i == "$":
-        if i == "$":
-            total += float(price)
-            price = ""
-        else:
-            price += i
+    if ord("0") <= ord(i) <= ord("9") or i == ".":
+        price += i
+    if i == "$":
+        total += float(price)
+        price = ""
 
-print(f"The bill is: {total} $")
+print(f"The bill is: {total}$")
 
 
 #Credit: Azmayen Aziz
