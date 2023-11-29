@@ -25,9 +25,6 @@ Sample input: First item: 12.99$, Second item: 10.99$, Third item: 14.11$
 
 
 
-# Please note that the following code does not resemble what I wrote in my exam. This is a modified version keeping the concept same.
-
-
 food_items = input()
 total = 0.0
 
