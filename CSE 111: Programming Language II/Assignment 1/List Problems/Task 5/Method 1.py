@@ -1,3 +1,5 @@
+#Task 5
+
 s = input()
 upp, low, oddDig, evenDig = "", "", "", ""
 
