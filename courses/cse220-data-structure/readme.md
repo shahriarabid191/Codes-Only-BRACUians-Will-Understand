@@ -3,7 +3,6 @@
 
 ### Current directory structure:
 
-'''
     cse220-data-structure
     ├── lab-questions
     │   ├── lab1-linear-and-2d-array.pdf
