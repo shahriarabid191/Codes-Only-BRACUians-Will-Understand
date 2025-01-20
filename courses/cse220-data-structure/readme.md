@@ -1,4 +1,4 @@
-# CSE220: Data Structure Fall 2024
+# CSE220: Data Structure (Fall 2024)
 
 
 ### Current directory structure:
